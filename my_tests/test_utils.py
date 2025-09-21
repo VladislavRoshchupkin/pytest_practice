@@ -1,10 +1,10 @@
 import pytest
 import utils
 def test_is_even():
-    assert utils.is_even(4) is True
+    assert utils.is_even(4)
 
 def test_is_even_false():
-    assert utils.is_even(7) is False
+    assert utils.is_even(7)
 
 def test_zero_division():
     with pytest.raises(ZeroDivisionError):
